@@ -1,8 +1,9 @@
 <template>
 	<div class="DefaultLayout">
 		<Nuxt />
-		<Icons />
+		<Header />
 		<Preloader />
+		<Icons />
 	</div>
 </template>
 
@@ -13,7 +14,7 @@ export default {
   components: {
     Icons,
   },
-  data: () => {
+  data() {
     return {
     };
   }
@@ -22,5 +23,6 @@ export default {
 
 <style lang="scss">
 .DefaultLayout {
+	margin: 0 auto;
 }
 </style>

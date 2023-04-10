@@ -1,7 +1,18 @@
+@import "variables/colors";
+@import "variables/sizes";
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+html,
+body {
+	min-height: 100vh;
 
+	background: var(--bg-color-first);
+	color: var(--ff-color-first);
+}
+
+@import "common";
