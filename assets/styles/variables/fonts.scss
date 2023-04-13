@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Philosopher';
+    src: url('@/assets/fonts/subset-Philosopher-Regular.eot');
+    src: local('Philosopher Regular'), local('Philosopher-Regular'),
+        url('@/assets/fonts/subset-Philosopher-Regular.eot?#iefix') format('embedded-opentype'),
+        url('@/assets/fonts/subset-Philosopher-Regular.woff2') format('woff2'),
+        url('@/assets/fonts/subset-Philosopher-Regular.woff') format('woff'),
+        url('@/assets/fonts/subset-Philosopher-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url('@/assets/fonts/subset-Philosopher-Bold.eot');
+    src: local('Philosopher Bold'), local('Philosopher-Bold'),
+        url('@/assets/fonts/subset-Philosopher-Bold.eot?#iefix') format('embedded-opentype'),
+        url('@/assets/fonts/subset-Philosopher-Bold.woff2') format('woff2'),
+        url('@/assets/fonts/subset-Philosopher-Bold.woff') format('woff'),
+        url('@/assets/fonts/subset-Philosopher-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

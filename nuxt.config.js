@@ -1,5 +1,9 @@
 // noinspection JSLastCommaInArrayLiteral,JSLastCommaInObjectLiteral
 export default {
+  server: {
+		port: process.env.HOST_PORT,
+		host: process.env.HOST_NAME,
+	},
   head: {
     title: 'Пошив штор Ателье - Домашняя | Москва',
     htmlAttrs: {

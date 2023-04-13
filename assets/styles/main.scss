@@ -1,5 +1,6 @@
 @import "variables/colors";
 @import "variables/sizes";
+@import "variables/fonts";
 
 * {
   box-sizing: border-box;
@@ -10,6 +11,8 @@
 html,
 body {
 	min-height: 100vh;
+
+  font-family: 'Philosopher', Helvetica, sans-serif;
 
 	background: var(--bg-color-first);
 	color: var(--ff-color-first);
