@@ -1,21 +1,28 @@
-@import "variables/colors";
-@import "variables/sizes";
-@import "variables/fonts";
+@import 'variables/colors';
+@import 'variables/sizes';
+@import 'variables/fonts';
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+*,
+ul,
+li,
+p,
+a {
+	box-sizing : border-box;
+	padding    : 0;
+	margin     : 0;
 }
 
-html,
+html {
+	font-size  : var(--module);
+	background : var(--bg-color-first);
+	color      : var(--ff-color-first);
+}
+
 body {
-	min-height: 100vh;
-
-  font-family: 'Philosopher', Helvetica, sans-serif;
-
-	background: var(--bg-color-first);
-	color: var(--ff-color-first);
+	font-family : var(--font-pt-sans);
+	font-weight : 400;
+	font-size   : 2rem;
+	line-height : 2.5rem;
 }
 
-@import "common";
+@import 'common';

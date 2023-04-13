@@ -20,16 +20,18 @@
 	background: var(--lg-color-first);
 
 	&__container {
+		height: calc(var(--header-height) / 1.5);
 		display: flex;
+		align-items: center;
 		justify-content: space-between;
 	}
 
 	&__side {
 		display: flex;
-		padding: 12px 0;
 
 		li {
 			list-style: none;
+			white-space: nowrap;
 		}
 
 		a {
@@ -38,13 +40,31 @@
 
 		&_left {
 			li {
-				margin-right: 12px;
+				margin-right: 2rem;
 			}
 		}
 		&_right {
 			li {
-				margin-left: 12px;
+				margin-left: 2rem;
 			}
+		}
+	}
+}
+@media screen and (max-width: 1000px) {
+	.Navbar {
+		&__container {
+			justify-content: flex-end;
+		}
+		&__side li {
+			margin-left: 2rem;
+			margin-right: 0;
+		}
+	}
+}
+@media screen and (max-width: 580px) {
+	.Navbar {
+		&__side:last-child {
+			display: none;
 		}
 	}
 }

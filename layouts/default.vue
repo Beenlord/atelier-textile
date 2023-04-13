@@ -1,7 +1,8 @@
 <template>
 	<div class="DefaultLayout">
-		<Nuxt />
 		<Header />
+		<Navbar />
+		<Nuxt />
 		<Preloader />
 		<Icons />
 	</div>
@@ -24,5 +25,9 @@ export default {
 <style lang="scss">
 .DefaultLayout {
 	margin: 0 auto;
+	.Navbar {
+		position: sticky;
+		top: 0;
+	}
 }
 </style>

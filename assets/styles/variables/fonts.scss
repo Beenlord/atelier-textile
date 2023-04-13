@@ -1,25 +1,56 @@
 @font-face {
-    font-family: 'Philosopher';
-    src: url('@/assets/fonts/subset-Philosopher-Regular.eot');
-    src: local('Philosopher Regular'), local('Philosopher-Regular'),
-        url('@/assets/fonts/subset-Philosopher-Regular.eot?#iefix') format('embedded-opentype'),
-        url('@/assets/fonts/subset-Philosopher-Regular.woff2') format('woff2'),
-        url('@/assets/fonts/subset-Philosopher-Regular.woff') format('woff'),
-        url('@/assets/fonts/subset-Philosopher-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+	font-family  : 'Philosopher';
+	src          : url('@/assets/fonts/Philosopher-Regular.eot');
+	src          : local('Philosopher Regular'), local('Philosopher-Regular'),
+	url('@/assets/fonts/Philosopher-Regular.eot?#iefix') format('embedded-opentype'),
+	url('@/assets/fonts/Philosopher-Regular.woff2') format('woff2'),
+	url('@/assets/fonts/Philosopher-Regular.woff') format('woff'),
+	url('@/assets/fonts/Philosopher-Regular.ttf') format('truetype');
+	font-weight  : 400;
+	font-style   : normal;
+	font-display : swap;
 }
 
 @font-face {
-    font-family: 'Philosopher';
-    src: url('@/assets/fonts/subset-Philosopher-Bold.eot');
-    src: local('Philosopher Bold'), local('Philosopher-Bold'),
-        url('@/assets/fonts/subset-Philosopher-Bold.eot?#iefix') format('embedded-opentype'),
-        url('@/assets/fonts/subset-Philosopher-Bold.woff2') format('woff2'),
-        url('@/assets/fonts/subset-Philosopher-Bold.woff') format('woff'),
-        url('@/assets/fonts/subset-Philosopher-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+	font-family  : 'Philosopher';
+	src          : url('@/assets/fonts/Philosopher-Bold.eot');
+	src          : local('Philosopher Bold'), local('Philosopher-Bold'),
+	url('@/assets/fonts/Philosopher-Bold.eot?#iefix') format('embedded-opentype'),
+	url('@/assets/fonts/Philosopher-Bold.woff2') format('woff2'),
+	url('@/assets/fonts/Philosopher-Bold.woff') format('woff'),
+	url('@/assets/fonts/Philosopher-Bold.ttf') format('truetype');
+	font-weight  : 700;
+	font-style   : normal;
+	font-display : swap;
+}
+
+@font-face {
+	font-family  : 'PT Sans';
+	src          : url('@/assets/fonts/PTSans-Bold.eot');
+	src          : local('PT Sans Bold'), local('PTSans-Bold'),
+	url('@/assets/fonts/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
+	url('@/assets/fonts/PTSans-Bold.woff2') format('woff2'),
+	url('@/assets/fonts/PTSans-Bold.woff') format('woff'),
+	url('@/assets/fonts/PTSans-Bold.ttf') format('truetype');
+	font-weight  : 700;
+	font-style   : normal;
+	font-display : swap;
+}
+
+@font-face {
+	font-family  : 'PT Sans';
+	src          : url('@/assets/fonts/PTSans-Regular.eot');
+	src          : local('PT Sans'), local('PTSans-Regular'),
+	url('@/assets/fonts/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+	url('@/assets/fonts/PTSans-Regular.woff2') format('woff2'),
+	url('@/assets/fonts/PTSans-Regular.woff') format('woff'),
+	url('@/assets/fonts/PTSans-Regular.ttf') format('truetype');
+	font-weight  : 400;
+	font-style   : normal;
+	font-display : swap;
+}
+
+:root {
+	--font-philosopher: 'Philosopher', Helvetica, sans-serif;
+	--font-pt-sans: 'PT Sans', Helvetica, sans-serif;
 }
