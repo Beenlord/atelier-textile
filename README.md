@@ -3,6 +3,9 @@
 > https://beenlord.github.io/atelier-textile/
 
 ```bash
+# force start
+$ npm i; npm run dev
+
 # install dependencies
 $ npm install
 
