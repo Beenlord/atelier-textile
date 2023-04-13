@@ -10,7 +10,7 @@
 				10:00-19:00 Ежедневно
 			</div>
 			<div class="Header__logo">
-				<img src="/logo.png" alt="Логотип Atelietextile">
+				<img src="logo.png" alt="Логотип Atelietextile">
 			</div>
 			<div class="Header__item Header__item_right">
 				<span>E-mail:</span><br />
